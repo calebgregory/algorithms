@@ -1,4 +1,7 @@
-var a = [13,7,2,9,1,8,3,12,2];
+var _ = require('lodash');
+
+var a = _.shuffle(_.range(10,19));
+
 console.log('> arr at start:',a);
 
 var start = new Date();
