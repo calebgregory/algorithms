@@ -9,6 +9,7 @@ console.log('\n0>',myA,'\n')
 
 var count = 0;
 
+var start = new Date();
 
 var quicksort = a => {
 
@@ -59,7 +60,6 @@ var quicksort = a => {
 
 }
 
-var start = new Date();
 quicksort(myA);
 var finish = new Date();
 console.log('that took',
